@@ -9,7 +9,7 @@ then
     echo $file
     if [ "$file" -ef "$1" ]
     then
-      echo "File above will not be copied!"
+      echo "File above will not be copied"
     else
       echo "File above is being copied"
       cp "$file" $3
